@@ -3,23 +3,23 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { DateTime } from 'luxon'; // Luxon library for date and time handling
-import './App.css';
+import 'App.css';
 
 // Importing images for different weather conditions
-import clearDayImage from './images/day/clear.jpg';
-import snowDayImage from './images/day/snow.jpg';
-import rainDayImage from './images/day/rain.jpg';
-import cloudyDayImage from './images/day/cloudy.jpg';
-import mistDayImage from './images/day/mist.jpg';
-import hazeDayImage from './images/day/haze.jpg';
-import thunderDayImage from './images/day/thunder.jpg';
-import clearNightImage from './images/night/clear.jpg';
-import snowNightImage from './images/night/snow.jpg';
-import mistNightImage from './images/night/mist.jpg';
-import rainNightImage from './images/night/rain.jpg';
-import cloudyNightImage from './images/night/cloudy.jpg';
-import hazeNightImage from './images/night/haze.jpg';
-import thunderNightImage from './images/night/thunder.jpg';
+import clearDayImage from 'images/day/clear.jpg';
+import snowDayImage from 'images/day/snow.jpg';
+import rainDayImage from 'images/day/rain.jpg';
+import cloudyDayImage from 'images/day/cloudy.jpg';
+import mistDayImage from 'images/day/mist.jpg';
+import hazeDayImage from 'images/day/haze.jpg';
+import thunderDayImage from 'images/day/thunder.jpg';
+import clearNightImage from 'images/night/clear.jpg';
+import snowNightImage from 'images/night/snow.jpg';
+import mistNightImage from 'images/night/mist.jpg';
+import rainNightImage from 'images/night/rain.jpg';
+import cloudyNightImage from 'images/night/cloudy.jpg';
+import hazeNightImage from 'images/night/haze.jpg';
+import thunderNightImage from 'images/night/thunder.jpg';
 
 library.add(faSearch); // Adding the search icon to the library
 
